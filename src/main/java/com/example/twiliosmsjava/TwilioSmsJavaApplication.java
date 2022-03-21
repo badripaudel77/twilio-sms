@@ -12,6 +12,7 @@ public class TwilioSmsJavaApplication {
     public static void main(String[] args) {
         SpringApplication.run(TwilioSmsJavaApplication.class, args);
         logger.debug("App is up and running ");
+        System.out.println("app running ");
     }
 
 }
